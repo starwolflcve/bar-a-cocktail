@@ -1,6 +1,7 @@
 package bar;
 
 public class Client {
+
     private String nom;
 
     public Client(String nom) {
