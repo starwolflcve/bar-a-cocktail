@@ -1,10 +1,13 @@
 package bar;
 
-public class Employe {
-    private String nom;
+public abstract class Employe {
 
-    public Employe(String nom) {
+    protected String nom;
+    protected int vitesse;
+
+    public Employe(String nom, int vitesse) {
         this.nom = nom;
+        this.vitesse = vitesse;
     }
 
     public String getNom() {
